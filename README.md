@@ -3,9 +3,9 @@ Welcome to the **SQL Course Project** repository!
 This is a three-part project that demonstrates a comprehensive data warehousing and analytics solutions, from building a data warehouse to generating actionable insights. Designed as a portfolio project that highlights industry best practices in data engineering and analytics. The project was built by following the instructions provided by Baraa's SQL Mastery Course.
 
 THREE PARTS TO THE PROJECT <br>
-1. SQL Course Project Part I: Data Warehouse
-2. SQL Course Project Part II: EDA
-3. SQL Course Project Part III: Power BI Dashboard
+1. SQL Course Project Part I: Data Warehouse (covered in this repository)
+2. SQL Course Project Part II: EDA (not covered in this repository)
+3. SQL Course Project Part III: Power BI Dashboard (not covered in this repository)
 
 ---
 ## 🏗️ Data Architecture
