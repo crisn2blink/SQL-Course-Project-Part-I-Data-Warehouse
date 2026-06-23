@@ -1,11 +1,11 @@
-# Data Warehouse & Anlytics Project
-Welcome to the **SQL Course Project** repository!
-This is a three-part project that demonstrates a comprehensive data warehousing and analytics solutions, from building a data warehouse to generating actionable insights. Designed as a portfolio project that highlights industry best practices in data engineering and analytics. The project was built by following the instructions provided by Baraa's SQL Mastery Course.
+# AdventureWorks Business Intelligence Dashboard
+Welcome to the **Project** repository!
+This is a three-part project that demonstrates a comprehensive data warehousing and analytics solutions, from building a data warehouse to generating actionable insights through the creation of a business-intelligence dashboard. Designed as a portfolio project that highlights industry best practices in data engineering and analytics. The project was built by following the instructions provided by Baraa's SQL Mastery Course.
 
 THREE PARTS TO THE PROJECT <br>
-1. SQL Course Project Part I: Data Warehouse (covered in this repository)
-2. SQL Course Project Part II: EDA (not covered in this repository)
-3. SQL Course Project Part III: Power BI Dashboard (not covered in this repository)
+1. Part I: ETL (Extract, Transform & Load) Data Pipeline Creation
+2. Part II: EDA (Exploratory Data Analysis)
+3. Part III: Power BI Dashboard
 
 ---
 ## 🏗️ Data Architecture
