@@ -144,7 +144,6 @@ For more details, refer to [docs/requirements.md](https://github.com/crisn2blin
     ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
     ├── naming_conventions.md           # Consistent naming guidelines for tables, columns, and files
     ├── business_task.md                # Questions meant to be answered by analysis
-    ├── methodology.md
     ├── integration_model_diagram.drawio
     ├── project_diagram.drawio
     ├── sales_data_mart.drawio
