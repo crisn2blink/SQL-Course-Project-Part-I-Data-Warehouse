@@ -1,117 +1,166 @@
 # AdventureWorks Business Intelligence Dashboard
-Welcome to the **Project** repository!
-This is a three-part project that demonstrates a comprehensive data warehousing and analytics solutions, from building a data warehouse to generating actionable insights through the creation of a business-intelligence dashboard. Designed as a portfolio project that highlights industry best practices in data engineering and analytics. The project was built by following the instructions provided by Baraa's SQL Mastery Course.
 
-THREE PARTS TO THE PROJECT <br>
+Welcome to the **Project** repository! This is a three-part project that demonstrates a comprehensive data warehousing and analytics solutions, from building a data warehouse to generating actionable insights through the creation of a business-intelligence dashboard. Designed as a portfolio project that highlights industry best practices in data engineering and analytics.
+
+<br>
+
+THREE PARTS TO THE PROJECT
+
 1. Part I: ETL (Extract, Transform & Load) Data Pipeline Creation
 2. Part II: EDA (Exploratory Data Analysis)
 3. Part III: Power BI Dashboard
 
----
-## 🏗️ Data Architecture
+<br>
 
-The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
-![Data Architecture](docs/data_architecture.png)
+## 🧭 How to Navigate this Repository
 
-1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+After reading the entirety of this very short README page to understand how the project is segmented, please feel free to proceed to Part I of this three part project via the folder titled:
 
----
-## 📖 Project Overview
+- 01-etl-data-pipeline
+
+<br>
+
+Make sure to once again read the full README found within this folder and navigate through the folders inquisitively.
+
+<br>
+
+Once Part I has been covered, proceed in the same manner (making sure to read the README document in each Part folder) for the following two folders:
+
+- 02-eda
+- 03-dashboard
+
+<br>
+Ultimately, this will provide a clear picture of the overall project and will also highlight my abilities as a business analyst and data engineer (which is the entire point of this portfolio project).
+
+* * *
+
+<br>
+
+## 📖 Full Project Overview
 
 This project involves:
 
-1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
+1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
 2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
-4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+4. **EDA**: Performing Exploratory Data Analysis for the sake of gathering general business insights
+5. **Analytics & Dashboard Creation**: Creating Power BI interactive dashboard for actionable insights.
+
+<br>
 
 🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
+
 - SQL Development
 - Data Architect
-- Data Engineering  
-- ETL Pipeline Developer  
-- Data Modeling  
-- Data Analytics  
+- Data Engineering
+- ETL Pipeline Developer
+- Data Modeling
+- Data Analytics
+- Dashboard Design
 
----
+* * *
 
-## 🛠️ Important Links & Tools:
-
-Everything is for Free!
-- **[Datasets](datasets/):** Access to the project dataset (csv files).
-- **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
-- **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
-- **[Git Repository](https://github.com/):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
-- **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.
-- **[Notion](https://www.notion.com/):** All-in-one tool for project management and organization.
-- **[Notion Project Steps](https://thankful-pangolin-2ca.notion.site/SQL-Data-Warehouse-Project-16ed041640ef80489667cfe2f380b269?pvs=4):** Access to All Project Phases and Tasks.
-
----
+<br>
 
 ## Project Requirements
 
-### Building the Data Warehouse (Data Engineering)
+### Part I: Building the Data Warehouse (Data Engineering) & Pipeline
 
-### Objective
+Tools used: SSMS
+
+Objective
+
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 #### Specifications
+
 - **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
 - **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
 - **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
-- **Scope**:  Focus on the latest dataset only; historization of data is not required.
+- **Scope**: Focus on the latest dataset only; historization of data is not required.
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
+<br>
 
----
+### Part II: EDA (Exploratory Data Analysis)
 
-### BI: Analytics & Reporting (Data Analytics)
+Tools used: SSMS
 
-#### Obejective
-Develop SQL-based analytics to deliver detailed insights into:
+#### Objective
+
+Perform initial EDA using the business objects (gold layer views) created in Part I to:
+
+- Begin to understand general business KPIs.
+- Understand the data and get a general snapshot of company performance.
+- Begin aggregating information to build the business dashboard with.
+
+<br>
+
+### Part III: BI: Analytics & Reporting (Data Analytics)
+
+Tools used: Power BI
+
+#### Objective
+
+Develop Power BI dashboard based on Part II EDA results to deliver detailed business insights into:
+
 - **Customer Behavior**
 - **Product Performance**
 - **Sales Trends**
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
-For more details, refer to [docs/requirements.md](docs/requirements.md).
+For more details, refer to [docs/requirements.md](https://github.com/crisn2blink/AdventureWorks-Business-Intelligence-Dashboard/blob/main/docs/requirements.md).
 
-## 📂 Repository Structure
-```
-data-warehouse-project/
-│
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
-│
-├── docs/                               # Project documentation and architecture details
-│   ├── project_diagram.drawio          # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow_diagram.drawio        # Draw.io file for the data flow diagram
-│   ├── sales_data_mart.drawio          # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
-│
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
-│
-├── tests/                              # Test scripts and quality files
-│
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
-```
----
+* * *
 
----
+<br>
+
+## 📂 General Repository Structure
+
+```
+├── 01-etl-data-pipeline/
+│   ├── README.md
+│   ├── bronze/
+│   ├── silver/
+│   ├── gold/
+│   └── scripts/
+│   └── docs/
+│
+├── 02-eda/
+│   ├── README.md
+│   ├── queries/
+│   ├── query_outputs/
+│   └── summary page*/
+│
+├── 03-dashboard/
+│   ├── README.md
+│   ├── pbix/
+│   ├── screenshots/
+│   └── measures/
+│   └── business insights/
+│
+└── docs/
+    ├── data-catalog.md                 # Catalog of datasets, including field descriptions and metadata
+    ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+    ├── business-task.md                # Questions meant to be answered by analysis
+    └── methodology.md
+    └── data model
+    └── lessons learned
+```
+
+* * *
+
+<br>
 
 ## License
 
-This project is licensed under the [MIT License] (LICENSE). You are free to use, modify and share this project with proper attribution.
+This project is licensed under the \[MIT License\] (LICENSE). You are free to use, modify and share this project with proper attribution.
+
+* * *
+
+<br>
 
 ## About Me
 
-Hi! I'm **Cristian Cervantes**. I'm a developing business analyst and yoga practitioner on a mission to share knowledge while simultaneously learning.
+Hi! I'm **Cristian Cervantes**. I'm a developing business analyst and yoga practitioner on a mission to share knowledge while simultaneously learning.
