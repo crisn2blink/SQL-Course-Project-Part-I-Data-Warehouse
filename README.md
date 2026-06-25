@@ -141,12 +141,12 @@ For more details, refer to [docs/requirements.md](https://github.com/crisn2blin
 │   ├── business insights/
 │
 └── docs/
-    ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-    ├── naming_conventions.md           # Consistent naming guidelines for tables, columns, and files
-    ├── business_task.md                # Questions meant to be answered by analysis
-    ├── integration_model_diagram.drawio
-    ├── project_diagram.drawio
-    ├── sales_data_mart.drawio
+    ├── data_catalog.md                   # Catalog of datasets, including field descriptions and metadata
+    ├── naming_conventions.md             # Consistent naming guidelines for tables, columns, and files
+    ├── business_task.md                  # Questions meant to be answered by analysis
+    ├── integration_model_diagram.drawio  # Draw.io file shows the project's star schema model
+    ├── project_diagram.drawio            # Draw.io file shows the project's architecture
+    ├── sales_data_mart.drawio            # Draw.io file for data models (star schema)
     ├── lessons learned
 ```
 
