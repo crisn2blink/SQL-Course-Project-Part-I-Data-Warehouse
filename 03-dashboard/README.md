@@ -51,29 +51,14 @@ The dashboards for this project are the following:
 data-warehouse-project/
 ├── README/ 
 ├── pbix/                          # Power BI documents
-├── SalesDashboard.pbip
-│   ├── SemanticModel/
-│   ├── Report/
-├── screenshots/                   # Dashboard screenshots for quick reference
-├── measures                       # Details of all the calculated measures created
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-├── calculated columns             # Details of all the calculated columns created
-├── business insights              # Derived from the dashboard
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-
+├── sales_dashboard.pbip
+    ├── semanticModel/
+    ├── report/
+├── documents/ 
+    ├── screenshots/                   # Dashboard screenshots for quick reference
+    ├── measures                       # Details of all the measures created
+    ├── calculated columns             # Details of all the calculated columns created
+    ├── eda data warehouse 1           # Notes regarding the results of the EDA
+    ├── dashboard plan                 # Blueprint for the dashboards
+    ├── business insights              # Derived from the dashboard
 ```
