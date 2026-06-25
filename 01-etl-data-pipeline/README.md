@@ -20,7 +20,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 <br>
 
-**SKILLS DEMONSTRATED**
+🧰**SKILLS DEMONSTRATED**🧰
 
 - Database Engineering
 - Data Validation (true validation)
