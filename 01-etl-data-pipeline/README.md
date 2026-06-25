@@ -52,7 +52,6 @@ data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── measures & calculated columns   # Table explaining all of the measures & calculated columns created
 │   ├── business assumptions            # All of the assumptions that came to be part of the analysis
 │   ├── cleaning decisions              # Clarifications for ETL process
 │
