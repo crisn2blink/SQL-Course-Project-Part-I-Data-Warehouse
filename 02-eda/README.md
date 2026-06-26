@@ -208,17 +208,6 @@ data-warehouse-project/
 │   ├──Performance Analysis
 │   ├──Part-to-Whole Analysis
 │   ├──Data Segmentation Analysis
-├── outputs/                           # Outputs of all 10 queries (.csv files)
-│   ├──Dimension Exploration
-│   ├──Date Exploration
-│   ├──Measure Exploration
-│   ├──Magnitude Analysis
-│   ├──Ranking Analysis
-│   ├──Change Over Time
-│   ├──Cumulative Analysis
-│   ├──Performance Analysis
-│   ├──Part-to-Whole Analysis
-│   ├──Data Segmentation Analysis
 ├── summary page                       # Summary of all the findings for the EDA
 
 ```
