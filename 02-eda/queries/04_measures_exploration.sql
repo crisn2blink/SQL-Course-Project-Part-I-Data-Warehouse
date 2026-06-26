@@ -30,7 +30,7 @@ SELECT COUNT(product_name) AS total_products FROM gold.dim_products
 -- Find the total number of customers
 SELECT COUNT(customer_key) AS total_customers FROM gold.dim_customers;
 
--- Find the total number of customers that has placed an order
+-- Find the total number of customers that have placed an order
 SELECT COUNT(DISTINCT customer_key) AS total_customers FROM gold.fact_sales;
 
 -- Generate a Report that shows all key metrics of the business
